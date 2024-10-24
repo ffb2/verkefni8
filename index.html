@@ -16,12 +16,12 @@
     <p>Til að greina streng, skrifaðu eða límdu inn í textareitinn og keyrðu <code>Greining</code> eða
       <code>Hreinsa</code> til að hreinsa texta og niðurstöður.</p>
 
-    <form action="." method="get" class="string-form">
+    <form action="." method="get" id="string-form" class="string-form">
       <label for="string">Strengur:</label>
       <textarea id="string" name="string" rows="4" cols="50"></textarea>
       <div class="buttons">
-        <button type="submit">Greining</button>
-        <button type="reset">Hreinsa</button>
+        <button id="submit" type="submit">Greining</button>
+        <button id="reset" type="reset">Hreinsa</button>
       </div>
       <!--
         Þetta er sjálfgefið falið með CSS þar til JavaScript kóði keyrir greiningu.
